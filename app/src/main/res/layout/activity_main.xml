@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.vigenere.MainActivity">
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Your Message" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert" />
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/encrypted_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="The Encrypted Message"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/decrypted_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="The Decrypted Message"/>
+
+</LinearLayout>
