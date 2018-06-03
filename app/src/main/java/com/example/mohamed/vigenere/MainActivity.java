@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     EditText message;
     Button convertBtn;
     TextView encrypted_message, decrypted_message;
-
+//////////////fchchcgfgh
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
